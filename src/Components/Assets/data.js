@@ -11,7 +11,8 @@ let data_product = [
     new_price:3500.00,
     old_price:4500.50,
   },
-  {id:2,
+  {
+    id:2,
     name:"Smartfon SAMSUNG Galaxy A54 8/128GB 5G 6.4\" 120Hz Czarny SM-A546",
     image:p2_img,
     new_price:2900.00,
