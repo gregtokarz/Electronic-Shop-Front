@@ -1,33 +1,33 @@
-import p1_img from './product_1.png'
-import p2_img from './product_2.png'
+import p1_img from './product_1.jpg'
+import p2_img from './product_2.jpg'
 import p3_img from './product_3.png'
-import p4_img from './product_4.png'
+import p4_img from './product_4.jpg'
 
 let data_product = [
   {
     id:1,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"Apple iPhone 14 128 GB - niebieski",
     image:p1_img,
-    new_price:50.00,
-    old_price:80.50,
+    new_price:3500.00,
+    old_price:4500.50,
   },
   {id:2,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"Smartfon SAMSUNG Galaxy A54 8/128GB 5G 6.4\" 120Hz Czarny SM-A546",
     image:p2_img,
-    new_price:85.00,
-    old_price:120.50,
+    new_price:2900.00,
+    old_price:3500.00,
   },
   {id:3,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"HUAWEI Mate50 Pro – 8GB/256GB/6,74” OLED – Czarny",
     image:p3_img,
-    new_price:60.00,
-    old_price:100.50,
+    new_price:2900.00,
+    old_price:3500.00,
   },
   {id:4,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"Smartfon REALME 11 Pro 8/256GB 5G 6.7 120Hz Beżowy RMX3771",
     image:p4_img,
-    new_price:100.00,
-    old_price:150.00,
+    new_price:1700.00,
+    old_price:2000.00,
   },
 ];
 
