@@ -7,6 +7,9 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import Footer from "./Components/Footer/Footer";
+import phone_banner from './Components/Assets/banner_phone.jpg'
+import agd_banner from './Components/Assets/banner_agd.jpg'
+import computer_banner from './Components/Assets/banner_computer.png'
 
 function App() {
   return (
@@ -15,9 +18,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Shop />}/>
-        <Route path='/telefony' element={<ShopCategory category="telefony"/>}/>
-        <Route path='/komputery' element={<ShopCategory category="komputery"/>}/>
-        <Route path='/agd' element={<ShopCategory category="agd"/>}/>
+        <Route path='/telefony' element={<ShopCategory banner={phone_banner} category="telefony"/>}/>
+        <Route path='/komputery' element={<ShopCategory banner={computer_banner} category="komputery"/>}/>
+        <Route path='/agd' element={<ShopCategory banner={agd_banner} category="agd"/>}/>
         <Route path="product" element={<Product />}>
           <Route path=':productId' element={<Product/>}/>
         </Route>
