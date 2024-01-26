@@ -10,10 +10,18 @@ import Footer from "./Components/Footer/Footer";
 import phone_banner from './Components/Assets/banner_phone.jpg'
 import agd_banner from './Components/Assets/banner_agd.jpg'
 import computer_banner from './Components/Assets/banner_computer.png'
+import Register from "./Pages/Register";
+import Offices from "./Components/Offices/Offices";
+import AboutUs from "./Components/AboutUs/AboutUs";
+import Contact from "./Components/Contact/Contact";
+import Admin from "./Components/Admin/Admin";
+import {AuthProvider} from "./Components/AuthHandler/AuthHandler";
+import AddProduct from "./Components/Admin/AddProduct";
 
 function App() {
   return (
     <div>
+      <AuthProvider>
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -26,9 +34,17 @@ function App() {
         </Route>
         <Route path='/cart' element={<Cart />}/>
         <Route path='/login' element={<LoginSignup />}/>
+        <Route path='/signup' element={<Register />}/>
+        <Route path='/biura' element={<Offices />}/>
+        <Route path='/o-nas' element={<AboutUs />}/>
+        <Route path='/kontakt' element={<Contact />}/>
+        <Route path='/admin' element={<Admin />}/>
+        <Route path='/add' element={<AddProduct />}/>
+
       </Routes>
       <Footer />
     </BrowserRouter>
+      </AuthProvider>
 
     </div>
   );

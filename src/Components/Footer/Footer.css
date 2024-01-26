@@ -61,3 +61,12 @@
     height: 3px;
     background: #c7c7c7;
 }
+
+.footer-links a{
+    text-decoration: none;
+    color: #4f49fc;
+}
+
+.footer-links a:hover{
+    color: #818181;
+}
