@@ -52,7 +52,7 @@ const AddProduct = () => {
   return (
     <div>
       <h2>Dodaj Produkt</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} class="addform">
         <label>
           Electronic ID:
           <input type="text" name="electronicId" value={formData.electronicId} onChange={handleInputChange} />
